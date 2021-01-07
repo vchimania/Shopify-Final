@@ -7,7 +7,8 @@ export default{
         price:750,
         brand: 'Nike',
         rating:10,
-        numReviews:10
+        numReviews:10,
+        countInStock:6
     },
     {
         _id:'2',
@@ -17,7 +18,8 @@ export default{
         price:750,
         brand: 'Nike',
         rating:3.5,
-        numReviews:8
+        numReviews:8,
+        countInStock:0
     },
     {
         _id:'3',
@@ -27,7 +29,8 @@ export default{
         price:1400,
         brand: 'Nike',
         rating:4,
-        numReviews:7
+        numReviews:7,
+        countInStock:8
     },
     {
         _id:'4',
@@ -36,7 +39,8 @@ export default{
         price:750,
         brand: 'Nike',
         rating:4.5,
-        numReviews:10
+        numReviews:10,
+        countInStock:6
     },
     {
         _id:'5',
@@ -45,7 +49,8 @@ export default{
         price:750,
         brand: 'Nike',
         rating:4.5,
-        numReviews:10
+        numReviews:10,
+        countInStock:2
     },
     {
         _id:'6',
@@ -54,7 +59,8 @@ export default{
         price:750,
         brand: 'Nike',
         rating:4.5,
-        numReviews:10
+        numReviews:10,
+        countInStock:5
     },
     {
         _id:'7',
@@ -63,7 +69,8 @@ export default{
         price:750,
         brand: 'Nike',
         rating:4.5,
-        numReviews:10
+        numReviews:10,
+        countInStock:1
     },
     {
         _id:'8',
@@ -72,7 +79,9 @@ export default{
         price:750,
         brand: 'Nike',
         rating:4.5,
-        numReviews:10
+        numReviews:10,
+        countInStock:10
+        
     },
     {
         _id:'9',
@@ -81,7 +90,8 @@ export default{
         price:750,
         brand: 'Nike',
         rating:4.5,
-        numReviews:10
+        numReviews:10,
+        countInStock:6
     },
     {
         _id:'10',
@@ -90,7 +100,8 @@ export default{
         price:750,
         brand: 'Nike',
         rating:4.5,
-        numReviews:10
+        numReviews:10,
+        countInStock:3
     }
 ]
 }
