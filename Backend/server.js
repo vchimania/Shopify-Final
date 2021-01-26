@@ -5,6 +5,7 @@ import config from './config';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import userRoute from './routes/userRoute';
+import bodyParser from 'body-parser';
 
 dotenv.config();
 
@@ -16,6 +17,7 @@ mongoose.connect(mongodbUrl,{ //these three lines are conncetion to mongoDB
 }).catch((error)=> console.log(error.reason)); //if error in mongoDB URL I can get the error in console
 
 const app=express();
+app.use(bodyParser.json());
 app.use(cors());
 
 app.use("/api/users",userRoute);
